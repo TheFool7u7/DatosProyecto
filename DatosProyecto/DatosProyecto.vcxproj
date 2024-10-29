@@ -146,12 +146,18 @@ sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     <ClCompile Include="Grafo.cpp" />
     <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="Simulacion.cpp" />
+    <ClCompile Include="Vehiculo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arista.h" />
     <ClInclude Include="Grafo.h" />
     <ClInclude Include="Nodo.h" />
     <ClInclude Include="Simulacion.h" />
+    <ClInclude Include="Vehiculo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\vehiculo.png" />
+    <Image Include="..\imagen1.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
