@@ -40,4 +40,6 @@ public:
     bool estaAbierta() const { return ventana.isOpen(); } // Método nuevo
     void cerrarVentana() { ventana.close(); }            // Método nuevo
     ~Simulacion();
+    void manejarClick(const sf::Event::MouseButtonEvent& mouseEvent);
+    void calcularRuta();
 };
